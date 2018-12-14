@@ -1,0 +1,40 @@
+{
+    "name": "threemagine/craft-cmsextras",
+    "description": "Extra twig filters",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craftcmsextras"
+    ],
+    "support": {
+        "docs": "https://github.com/3magine/craftcmsextras/blob/master/README.md",
+        "issues": "https://github.com/3magine/craftcmsextras/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karl Schellenberg",
+            "homepage": "https://www.3magine.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "threemagine\\craftcmsextras\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "CraftCMSExtras",
+        "handle": "craft-cmsextras",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/3magine/craftcmsextras/master/CHANGELOG.md",
+        "class": "threemagine\\craftcmsextras\\CraftCMSExtras"
+    }
+}
